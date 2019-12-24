@@ -1,0 +1,90 @@
+.container {
+  padding-top: 20px;
+}
+
+.col-md-2 {}
+
+  .bio{
+    padding-bottom: 50px;
+  }
+
+.bio .center {
+  padding: 20px;
+  border: 5px solid #CEB47C;
+}
+
+.bio .center p {
+  font-size: 12px;
+}
+
+.container h1{
+  text-align: center;
+
+}
+
+.container h3{
+  text-align: center;
+}
+
+.bio .thisimage{
+max-width: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+
+}
+
+.hr {
+border: 10px;
+
+}
+
+/*media query for tablet, computer*/
+@media screen and (min-width: 768px) {
+  .col-md-2 {}
+
+.bio .center {
+    padding: 50px;
+    border: 5px solid #CEB47C;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.bio .center p {
+    font-size: 12px;
+  }
+
+.bio .thisimage{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .col-md-2 {}
+
+.bio .center {
+    padding: 25px;
+    border: 5px solid #CEB47C;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+.bio .center p {
+    font-size: 12px;
+  }
+
+.bio .thisimage{
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+
+}
+
+  /*media query for tablet, computer ends here*/
