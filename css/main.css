@@ -1,3 +1,8 @@
+html *{
+  overflow-x: hidden;
+   overflow-y: scroll;
+}
+
 .container {
   padding-top: 20px;
 }
@@ -47,8 +52,8 @@ border: 10px;
 .bio .center {
     padding: 50px;
     border: 5px solid #CEB47C;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
 .bio .center p {
